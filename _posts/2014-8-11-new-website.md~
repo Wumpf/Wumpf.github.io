@@ -1,0 +1,11 @@
+---
+layout: post
+category : Meta
+tagline: "Supporting tagline"
+tags : [intro, meta, website, jekyll, github]
+---
+{% include JB/setup %}
+
+![Exe!](http://img.galerie.chip.de/imgserver/communityimages/888300/888399/original_113BB3400AF3EA46D7E71C3B1F4BC9D1.jpg)
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
