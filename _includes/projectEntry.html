@@ -1,0 +1,29 @@
+<article class="project-entry">
+	<div class="projectheader">
+		<h3>
+			{{ post.title }}
+		</h3>
+		<div class="project-lastupdate">
+			<span><b>Last Update:</b></span> <time>{{ post.lastupdate }}</time>
+		</div>
+		<div class="project-tech">
+			<span><b>Tech:</b></span> <span>{{ post.technology }}</span>
+		</div>
+		<div class="project-team">
+			<span><b>Team:</b></span> <span>{{ post.team }}</span>
+		</div>
+	</div>
+	<section class="project-content">
+		<div class="project-thumb">
+			<img src={{ post.thumb }} alt="thumbnail" width=150 height=150>
+		</div>
+		<div>
+			<div class="project-desc">
+				<span>{{ post.desc }}</span>
+			</div>
+			<div class="project-links">
+				<span><b>Links:</b> {{ post.links }}</span>
+			</div>
+		</div>
+	</section>
+</article>

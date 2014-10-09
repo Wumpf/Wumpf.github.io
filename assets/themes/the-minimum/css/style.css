@@ -62,7 +62,7 @@ h1, .h1 {
   letter-spacing: -1px;
 }
 h2, .h2 {
-  font-size: 35px;
+  font-size: 42px;
   line-height: 52px;
   margin-top: 52px;
   margin-bottom: 26px;
@@ -72,7 +72,7 @@ h3, .h3 {
   font-size: 26px;
   line-height: 26px;
   margin-top: 26px;
-  margin-bottom: 26px;
+  margin-bottom: 10px;
 }
 h4, .h4 {
   font-size: 20px;
@@ -104,7 +104,7 @@ strong {
   font-weight: bold;
 }
 em {
-  font-weight: italic;
+  font-weight: bold;
 }
 /*
 Color schemes
@@ -503,6 +503,7 @@ pre {
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
 }
+
 /* FOOTER
 ----------------------------------------------- */
 .the-footer {
@@ -701,7 +702,8 @@ pre {
   .unit-article .unit-head-inner,
   .unit-article .entry-content,
   .unit-article .misc-content,
-  .unit-article .unit-foot-inner {
+  .unit-article .unit-foot-inner,
+  .project-entry {
     width: 26.25em;
   }
   .unit-article .unit-foot .gotop {
@@ -727,7 +729,9 @@ pre {
   .unit-article .unit-head-inner,
   .unit-article .entry-content,
   .unit-article .misc-content,
-  .unit-article .unit-foot-inner {
+  .unit-article .unit-foot-inner,
+  .project-entry
+  . {
     width: 43.125em;
   }
   .unit-article .unit-head-inner .meta {
@@ -772,7 +776,8 @@ pre {
   .unit-article .unit-head-inner,
   .unit-article .entry-content,
   .unit-article .misc-content,
-  .unit-article .unit-foot-inner {
+  .unit-article .unit-foot-inner,
+  .project-entry {
     width: 43.125em;
   }
   .pagination {
@@ -805,13 +810,14 @@ pre {
     width: 88.125em;
   }
   .the-header .logo {
-    width: 43.125em;
+    width: 50em;
   }
   .the-header .nav-global {
-    width: 43.125em;
+    width: 50em;
   }
-  .unit-article .unit-head-inner, .unit-article .entry-content, .unit-article .misc-content {
-    width: 43.125em;
+  .unit-article .unit-head-inner, .unit-article .entry-content, .unit-article .misc-content,
+  .project-entry {
+    width: 50em;
   }
   .unit-article .unit-foot-inner {
     width: 88.125em;
@@ -824,10 +830,10 @@ pre {
     width: 9.375em;
   }
   .layout-page .unit-body .unit-body-inner {
-    width: 43.125em;
+    width: 50em;
   }
   .layout-page .unit-body .article-list {
-    width: 43.125em;
+    width: 50em;
   }
   .layout-page .unit-body .article-list .meta {
     width: 20.625em;
@@ -848,4 +854,45 @@ pre {
     margin-left: 360px;
     margin-right: 360px;
   }
+}
+
+
+/* PROJECT
+----------------------------------------------- */
+.project-entry {
+  display: inline-block;
+  margin-bottom: 40px
+}
+.project-header {
+}
+.project-tech {
+  display: inline-block;
+}
+.project-lastupdate {
+  width: 50%;
+  float: left;
+  display: inline-block;
+}
+.project-team {
+
+}
+.project-content {
+}
+.project-thumb {
+  display: inline-block;
+  float: left;
+  width: 150px;
+  height: 150px;
+  padding: 0px 5px 0px 0px;
+}
+.project-desc {
+}
+.project-links {
+  padding: 0px 10px 0px 0px;
+}
+h3 {
+
+}
+time {
+
 }

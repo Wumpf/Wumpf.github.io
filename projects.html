@@ -5,14 +5,12 @@ title: Project Archive
 {% include JB/setup %}
 
 
-<!--ul class="projects">
+<ul class="projects">
 {% for post in site.projects %}
 	{% if post.category != 'Game' %}
 		{% continue %}
 	{% endif %}
 
-	{% include projectEntry %}
+	{% include projectEntry.html %}
 {% endfor %}
-</ul -->
-
-Todo...
+</ul>
