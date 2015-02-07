@@ -23,31 +23,6 @@
 					config: {
 						mode: function() { return ((skel.vars.isMobile || skel.vars.browser == 'safari') ? 'transform' : 'position'); }
 					},
-
-				// Navigation Panel.
-					navPanel: {
-						animation: 'pushX',
-						breakpoints: 'small',
-						clickToHide: true,
-						height: '100%',
-						hidden: true,
-						html: '<div data-action="navList" data-args="nav"></div>',
-						orientation: 'vertical',
-						position: 'top-left',
-						side: 'left',
-						width: 250
-					},
-
-				// Title Bar.
-					titleBar: {
-						breakpoints: 'small',
-						height: 44,
-						html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span><span class="title" data-action="copyText" data-args="logo"></span>',
-						position: 'top-left',
-						side: 'top',
-						width: '100%'
-					}
-
 			}
 		}
 	});
@@ -86,12 +61,6 @@
 		// Scrolly links.
 			$('.scrolly').scrolly({
 				speed: 2000
-			});
-
-		// Dropdowns.
-			$('#nav > ul').dropotron({
-				alignment: 'right',
-				hideDelay: 350
 			});
 
 		// Parallax.
